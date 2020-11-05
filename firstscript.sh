@@ -6,6 +6,12 @@ echo "this is the 2nd line"
 read -p "ente your number=>" p
 read -p "ente your number=>" q
 
-((sum=x+y))
+((sum=p+q))
 
 echo $sum
+
+echo"lets subsctract"
+
+((subtract=p-q))
+
+echo $subtract
