@@ -10,8 +10,14 @@ read -p "ente your number=>" q
 
 echo $sum
 
-echo"lets subsctract"
+echo "lets subsctract"
 
 ((subtract=p-q))
 
 echo $subtract
+
+echo "lets multiply"
+
+((multiply=p*q))
+
+echo $multiply
